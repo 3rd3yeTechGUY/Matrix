@@ -17,7 +17,9 @@ printf "\e[1;31m \_|  |_/\_| |_/\_/ \_| \_|\___/\/   \/ \e[0m\n"
 printf "\n"
 
 }                                     
-                                                                                                                
+
+echo -e "\e[4;34m This Matrix Was Created By Tech-Cochi \e[0m"
+
 
 menu() {
 
