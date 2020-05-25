@@ -5,6 +5,8 @@
 # Instagram: _________
 # YouTube : Tech Cochi
 
+xdg-open https://www.youtube.com/TechCochi?sub_confirmation=1
+
 banner() {
 printf "\n"                                                                                                                    
 
