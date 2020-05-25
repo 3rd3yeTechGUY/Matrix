@@ -26,14 +26,14 @@ echo -e "\e[4;34m This Matrix Was Created By Tech-Cochi \e[0m"
 menu() {
 
 printf "\n"                                                                   |
-printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[1;93m Website Info\e[0m          \e[1;92m[\e[0m\e[1;77m7\e[0m\e[1;92m]\e[1;93m Check DNS Leak\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[1;93m Phone Info\e[0m            \e[1;92m[\e[0m\e[1;77m8\e[0m\e[1;92m]\e[1;93m Internet Speed test\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m3\e[0m\e[1;92m]\e[1;93m Check e-mail\e[0m          \e[1;92m[\e[0m\e[1;77m9\e[0m\e[1;92m]\e[1;93m Find ip behind Cloudflare\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m4\e[0m\e[1;92m]\e[1;93m My Info\e[0m               \e[1;92m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[1;93m Find Subdomains\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m5\e[0m\e[1;92m]\e[1;93m Check site is up/down\e[0m \e[1;92m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[1;93m Check CMS\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m6\e[0m\e[1;92m]\e[1;93m IP Tracker\e[0m            \e[1;92m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[1;93m Port Scan\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[1;34m Website Info\e[0m          \e[1;92m[\e[0m\e[1;77m7\e[0m\e[1;92m]\e[1;34m Check DNS Leak\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[1;34m Phone Info\e[0m            \e[1;92m[\e[0m\e[1;77m8\e[0m\e[1;92m]\e[1;34m Internet Speed test\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m3\e[0m\e[1;92m]\e[1;34m Check e-mail\e[0m          \e[1;92m[\e[0m\e[1;77m9\e[0m\e[1;92m]\e[1;34m Find ip behind Cloudflare\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m4\e[0m\e[1;92m]\e[1;34m My Info\e[0m               \e[1;92m[\e[0m\e[1;77m10\e[0m\e[1;92m]\e[1;34m Find Subdomains\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m5\e[0m\e[1;92m]\e[1;34m Check site is up/down\e[0m \e[1;92m[\e[0m\e[1;77m11\e[0m\e[1;92m]\e[1;34m Check CMS\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m6\e[0m\e[1;92m]\e[1;34m IP Tracker\e[0m            \e[1;92m[\e[0m\e[1;77m12\e[0m\e[1;92m]\e[1;34m Port Scan\e[0m\n"
 printf "\n"
-read -p $'\e[1;92m[*] Choose an option: \e[0m' choice
+read -p $'\e[1;92m[*] Choose an option: \e[1;31m\e[0m' choice
 
 
 if [[ $choice == "1" ]]; then
